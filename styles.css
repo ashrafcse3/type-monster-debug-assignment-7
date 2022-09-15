@@ -107,6 +107,16 @@ body {
   margin: 20px 0;
 }
 
+.second-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.second-title a {
+  color: white;
+  text-decoration: none;
+}
+
 .divider-container {
   height: 80px;
   display: flex;
