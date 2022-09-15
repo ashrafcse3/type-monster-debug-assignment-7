@@ -157,12 +157,7 @@ button {
   cursor: pointer;
 }
 
-#histories {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
+#histories,
 #blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -227,7 +222,8 @@ button {
     flex-direction: column;
   }
 
-  #histories {
+  #histories,
+  #blogs {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -236,7 +232,8 @@ button {
 
 @media only screen and (max-width: 1213px) and (min-width: 700px) {
 
-  #histories {
+  #histories,
+  #blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
